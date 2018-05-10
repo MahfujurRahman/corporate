@@ -1,32 +1,38 @@
-(function ($) {
-	"use strict";
+/*---*/
+// (function ($) {
+// 	"use strict";
 
-    jQuery(document).ready(function($){
+//     jQuery(document).ready(function($){
 
 
-        $(".embed-responsive iframe").addClass("embed-responsive-item");
-        $(".carousel-inner .item:first-child").addClass("active");
+//         $(".embed-responsive iframe").addClass("embed-responsive-item");
+//         $(".carousel-inner .item:first-child").addClass("active");
         
-        $('[data-toggle="tooltip"]').tooltip();
+//         $('[data-toggle="tooltip"]').tooltip();
 
-            jQuery('.skillbar').each(function(){
-                jQuery(this).find('.skillbar-bar').animate({
-                    width:jQuery(this).attr('data-percent')
-                },6000);
-            });
+           
 
 
 
         
 
 
-    });
+//     });
 
 
-    jQuery(window).load(function(){
+
+
+//     jQuery(window).load(function(){
 
         
-    });
+//     });
 
 
-}(jQuery));	
+// }(jQuery));
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});	
