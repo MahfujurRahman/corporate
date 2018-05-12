@@ -6,10 +6,76 @@
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
  
-    
+    .our-story h2::before{
+        left: 36%;
+    }
+    .our-story h2::after {
+        right: 61.3%;
+    }
+    .our-services h2::before{
+        left: 33%;
+    }
+    .our-services h2::after {
+        left: 35.3%;
+    }
+    .pricing-plane h2::before{
+        left: 32%;
+    }
+    .pricing-plane h2::after {
+        right: 65.3%;
+    }
+    .latest-posts h2::after {
+        right: 96%;
+    }
 }
 /* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .our-story h2::before{
+        left: 20%;
+    }
+    .our-story h2::after {
+        right: 74.3%;
+    }
+    .our-services h2::before{
+        left: 13%;
+    }
+    .our-services h2::after {
+        left: 16.8%;
+    }
+    .pricing-plane h2::before{
+        left: 12%;
+    }
+    .pricing-plane h2::after {
+        right: 82.3%;
+    }
+    .latest-posts h2::after {
+        left: 8%;
+    }
+    .latest-posts h2::before{
+        left: 3.4%;
+    }
+    .our-story h5 {
+        margin-top: 30px;
+    }
+    .skillset {
+        padding-left: 0;
+    }
+    .numarice-factore p {
+        margin-bottom: 20px;
+    }
+    .pricing-hover {
+        margin-bottom: 20px;
+    }
+    .purchase p {
+        text-align: center;
+    }
+    .purchase a {
+        float: none;
+        margin-left: 27%;
+    }
  
     
 }
